@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f2fd;
+}
+.Dowload-btn{
+    display: flex;
+    border: none;
+    padding: 16px 25px;
+    border-radius: 6px;
+    color: #fff;
+    align-items: center;
+    background-color:#4a98f7 ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+.Dowload-btn .icon:hover{
+ background-color: #2382f6;
+}
+.Dowload-btn .icon{
+    font-size: 1rem;
+}
+.Dowload-btn .text{
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.Dowload-btn.timer{
+    color: #000;
+    background-color: none;
+    box-sizing: none ;
+    font-size: 1.6rem;
+    pointer-events: none;
+    transition: none;
+}
+.Dowload-btn.timer b{
+    color:white;
+    padding: 0 8px;
+
+}
